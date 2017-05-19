@@ -18,6 +18,5 @@
    </hash>
    <list n="listOfChildren">
       <hash><url n="URL" path="AppColLabeller/AppColLabeller.jpr"/></hash>
-      <hash><url n="URL" path="../Spring_Employee_IOC/AppColLabeller.jpr"/></hash>
    </list>
 </jws:workspace>

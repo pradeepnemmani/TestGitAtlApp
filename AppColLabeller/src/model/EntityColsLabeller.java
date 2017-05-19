@@ -107,7 +107,7 @@ public class EntityColsLabeller {
                             newProperties.size() > 0) {
                             newProperties.store(propOutput, null);
                         }
-                        status = "properties successfully updated.";
+                        status = "properties successfully updated...";
                     }
                 } else {
                     status = "Labels file not found.";
@@ -174,12 +174,13 @@ public class EntityColsLabeller {
                         }
                     }
                 }
+                else {
+                    status = "Updated entity file not found.";
+                }
             } else {
                 status = "Entity file not found.";
             }
-            else {
-                status = "Updated entity file not found.";
-            }
+//            
         } catch (FileNotFoundException foe) {
             foe.printStackTrace();
         } catch (IOException ioe) {
