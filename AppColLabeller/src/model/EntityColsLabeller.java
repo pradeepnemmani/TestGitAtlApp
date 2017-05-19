@@ -198,7 +198,7 @@ public class EntityColsLabeller {
                                    "C:\\Users\\pradeep.n\\Desktop\\propertiesUpdate\\entityFile.xml",
                                    "C:\\Users\\pradeep.n\\Desktop\\propertiesUpdate\\updatedEntityFile.xml");
         String statuc = ps.processAndUpdatePropFile();
-        ps.mapEntityColumns();
+       String mapStatus= ps.mapEntityColumns();
     }
 
 }
