@@ -200,7 +200,6 @@ public class EntityColsLabeller {
         String statuc = ps.processAndUpdatePropFile();
        String mapStatus= ps.mapEntityColumns();
     }
-
 }
 
 
