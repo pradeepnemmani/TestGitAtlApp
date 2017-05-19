@@ -1,0 +1,63 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Thu May 18 2017 15:40:55 GMT+0530 (India Standard Time) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="Entity">
+              <xs:complexType>
+                     <xs:sequence>
+                         
+                            <xs:element name="Attribute">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="DesignTime">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="Attr">
+                                                                             <xs:complexType>
+                                                                                    <xs:attribute name="Name" type="xs:string"></xs:attribute>
+                                                                                    <xs:attribute name="Value" type="xs:int"></xs:attribute>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                                 <xs:element name="Properties">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="SchemaBasedProperties">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="LABEL">
+                                                                                                  <xs:complexType>
+                                                                                                         <xs:attribute name="ResId" type="xs:string"></xs:attribute>
+                                                                                                     </xs:complexType>
+                                                                                              </xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                          <xs:attribute name="Name" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="Precision" type="xs:int"></xs:attribute>
+                                          <xs:attribute name="ColumnName" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="SQLType" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="Type" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="ColumnType" type="xs:string"></xs:attribute>
+                                          <xs:attribute name="TableName" type="xs:string"></xs:attribute>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                     <xs:attribute name="xmlns" type="xs:string"></xs:attribute>
+                     <xs:attribute name="Name" type="xs:string"></xs:attribute>
+                     <xs:attribute name="Version" type="xs:string"></xs:attribute>
+                     <xs:attribute name="InheritPersonalization" type="xs:string"></xs:attribute>
+                     <xs:attribute name="DBObjectType" type="xs:string"></xs:attribute>
+                     <xs:attribute name="DBObjectName" type="xs:string"></xs:attribute>
+                     <xs:attribute name="AliasName" type="xs:string"></xs:attribute>
+                     <xs:attribute name="BindingStyle" type="xs:string"></xs:attribute>
+                     <xs:attribute name="UseGlueCode" type="xs:string"></xs:attribute>
+                     <xs:attribute name="RowClass" type="xs:string"></xs:attribute>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
